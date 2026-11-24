@@ -5,7 +5,7 @@ Cole o texto abaixo no Claude Code (ou outra IA de programação) dentro da past
 Antes de começar, prepare:
 - PDFs em `documentos/louvor`, com a data no nome (ex.: `2026-11-16.pdf`).
 - Ícone da igreja em `assets/logo-iel.png`.
-- Telas da Opção A exportadas do protótipo para `referencias/` (incluindo as telas 1 e 9).
+- Telas da Opção A em `referencias/` (arquivos `01-entrar.png` a `09-exportar-pdf.png`, já incluídos no repositório).
 - E-mails Google da equipe e link da playlist do YouTube.
 
 ---
@@ -91,15 +91,15 @@ Componentes: cards brancos com raio 24 px e sombra suave (0 1px 2px e 0 8px 24px
 Barra inferior (88 px, fundo branco): Início, Biblioteca e Nova música (esta só para admin e editor). Item ativo em verde escuro.
 
 Telas:
-1) Entrar: ícone da igreja grande (112 px), rótulo "Igreja Evangélica Livre", título "Biblioteca de Louvor", frase "Cifras e repertório da nossa equipe, sempre à mão.", card com o versículo João 8:36 (opcional, fácil de remover), botão "Continuar com Google" e aviso "Acesso restrito à equipe. Use o e-mail cadastrado."
-2) Início: ícone de 44 px com o rótulo "Igreja Evangélica Livre", título "Olá, bem-vindo" (saudação neutra, sem expressões religiosas), campo de busca em pílula, card verde escuro (#2F7A1A, raio 28) "Continuar de onde parou" com título da última música aberta, tom e botão "Abrir cifra" (fundo #6DBE45), card "Playlist da equipe" com botão "Abrir no YouTube" e lista "Recentes" com selo de tom e coração.
-3) Biblioteca: ícone de 28 px com o rótulo "Repertório", título "Biblioteca", contador "N músicas", busca, chips Todas/Favoritas/Recentes, lista agrupada por letra com selo de tom e coração, e índice A-Z vertical à direita.
-4) Cifra: seta voltar e coração no topo, título grande, "Tom original G", card branco com o rótulo "TOM", sugestão de capotraste, botões - e + em círculos tintados e o tom atual em Fraunces 30 px; abaixo, a cifra em fonte mono; barra flutuante escura (#1F2A17, raio 30, 60 px) com Copiar, Imprimir, PDF e Aa (Aa abre Ajustes e PDF abre a tela 9).
-5) Escolher tom (bottom sheet com fundo escurecido): "Escolha o tom", grade 4x3 com os 12 tons (selecionado em verde escuro), caixa tintada com o capotraste, botão "Aplicar tom X" e "Voltar ao original".
-6) Ajustes de leitura (bottom sheet): seções TAMANHO DA CIFRA (A-, prévia, A+), ROLAGEM AUTOMÁTICA (Iniciar, velocidade - e +), EXIBIR e NOTAÇÃO (controles segmentados), chaves "Simplificar cifra" e "Manter tela ligada" e botão "Restaurar".
-7) Modo palco (escuro): cifra a 18 px ou mais, controles - e + do tom no topo, selo "Modo palco" e rolagem automática em destaque.
-8) Nova música: campos Título e Letra com cifras (textarea mono de 300 px), aviso de que o tom é detectado automaticamente, botão fixo "Salvar na biblioteca" e ação "Cancelar".
-9) Exportar PDF (bottom sheet com fundo escurecido): título "Exportar PDF" e subtítulo com o nome da música e "folha A4"; controle segmentado TOM (Atual / Original); controle segmentado CONTEÚDO (Acordes e letra / Só letra); TAMANHO DA FONTE com A-, valor em pt e A+; chaves "Mostrar capotraste" (ligada) e "Caber em uma página" (desligada); botão "Gerar PDF" em pílula verde escura de 56 px e "Cancelar".
+1) Entrar (referencias/01-entrar.png): ícone da igreja grande (112 px), rótulo "Igreja Evangélica Livre", título "Biblioteca de Louvor", frase "Cifras e repertório da nossa equipe, sempre à mão.", card com o versículo João 8:36 (opcional, fácil de remover), botão "Continuar com Google" e aviso "Acesso restrito à equipe. Use o e-mail cadastrado."
+2) Início (referencias/02-inicio.png): ícone de 44 px com o rótulo "Igreja Evangélica Livre", título "Olá, bem-vindo" (saudação neutra, sem expressões religiosas), campo de busca em pílula, card verde escuro (#2F7A1A, raio 28) "Continuar de onde parou" com título da última música aberta, tom e botão "Abrir cifra" (fundo #6DBE45), card "Playlist da equipe" com botão "Abrir no YouTube" e lista "Recentes" com selo de tom e coração.
+3) Biblioteca (referencias/03-biblioteca.png): ícone de 28 px com o rótulo "Repertório", título "Biblioteca", contador "N músicas", busca, chips Todas/Favoritas/Recentes, lista agrupada por letra com selo de tom e coração, e índice A-Z vertical à direita.
+4) Cifra (referencias/04-cifra.png): seta voltar e coração no topo, título grande, "Tom original G", card branco com o rótulo "TOM", sugestão de capotraste, botões - e + em círculos tintados e o tom atual em Fraunces 30 px; abaixo, a cifra em fonte mono; barra flutuante escura (#1F2A17, raio 30, 60 px) com Copiar, Imprimir, PDF e Aa (Aa abre Ajustes e PDF abre a tela 9).
+5) Escolher tom (bottom sheet, referencias/05-escolher-tom.png com fundo escurecido): "Escolha o tom", grade 4x3 com os 12 tons (selecionado em verde escuro), caixa tintada com o capotraste, botão "Aplicar tom X" e "Voltar ao original".
+6) Ajustes de leitura (bottom sheet, referencias/06-ajustes-leitura.png): seções TAMANHO DA CIFRA (A-, prévia, A+), ROLAGEM AUTOMÁTICA (Iniciar, velocidade - e +), EXIBIR e NOTAÇÃO (controles segmentados), chaves "Simplificar cifra" e "Manter tela ligada" e botão "Restaurar".
+7) Modo palco (escuro) (referencias/07-modo-palco.png): cifra a 18 px ou mais, controles - e + do tom no topo, selo "Modo palco" e rolagem automática em destaque.
+8) Nova música (referencias/08-nova-musica.png): campos Título e Letra com cifras (textarea mono de 300 px), aviso de que o tom é detectado automaticamente, botão fixo "Salvar na biblioteca" e ação "Cancelar".
+9) Exportar PDF (bottom sheet, referencias/09-exportar-pdf.png com fundo escurecido): título "Exportar PDF" e subtítulo com o nome da música e "folha A4"; controle segmentado TOM (Atual / Original); controle segmentado CONTEÚDO (Acordes e letra / Só letra); TAMANHO DA FONTE com A-, valor em pt e A+; chaves "Mostrar capotraste" (ligada) e "Caber em uma página" (desligada); botão "Gerar PDF" em pílula verde escura de 56 px e "Cancelar".
 
 Acessibilidade: contraste mínimo de 4.5:1 no texto, aria-label em todos os botões de ícone, foco visível, respeitar prefers-reduced-motion e prefers-color-scheme. Nunca usar o verde do ícone (#409722) como cor de texto pequeno sobre branco.
 

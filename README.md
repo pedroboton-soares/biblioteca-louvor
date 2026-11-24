@@ -20,8 +20,8 @@ Fase de design concluída. O desenvolvimento ainda não começou. O passo a pass
 - `prototipo/`: telas do protótipo (código-fonte do canvas de design).
   - Opção A (escolhida): `Entrar`, `Main` (Início), `Biblioteca`, `Cifra`, `Tom`, `Escuro` (modo palco), `Ajustes`, `Exportar`, `Nova`.
   - Opção B (descartada, guardada para consulta): arquivos `B1` a `B7`.
-  - Os arquivos `.dc.html` são fonte do canvas e não abrem sozinhos no navegador. Para guardar as telas como imagem, exporte-as do canvas e salve em `referencias/`.
-- `referencias/`: imagens exportadas das telas para guiar o desenvolvimento.
+  - Os arquivos `.dc.html` são fonte do canvas e não abrem sozinhos no navegador.
+- `referencias/`: imagens das telas da Opção A (`01-entrar.png` a `09-exportar-pdf.png`) para guiar o desenvolvimento, mais o zip original exportado do canvas.
 
 ## Paleta (derivada do ícone)
 Verde escuro `#2F7A1A` (botões e textos), destaque `#6DBE45`, fundo `#FBFAF6`, texto `#1F2A17`. Modo escuro: fundo `#0F160A`, destaque `#7FD35A`. Fontes: Fraunces, Inter e JetBrains Mono.
