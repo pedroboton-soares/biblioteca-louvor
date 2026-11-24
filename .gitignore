@@ -1,0 +1,16 @@
+# Letras e cifras têm direitos autorais: nunca versionar
+documentos/
+*.pdf
+songs.json
+relatorio_importacao.md
+
+# Segredos e arquivos locais
+.env
+.env.*
+serviceAccount*.json
+*-firebase-adminsdk-*.json
+.firebase/
+firebase-debug.log
+node_modules/
+__pycache__/
+.DS_Store
